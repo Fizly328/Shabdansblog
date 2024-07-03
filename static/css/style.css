@@ -1,0 +1,146 @@
+/**
+ * Базовые стили для всего сайта
+ */
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background: #000;
+    background-position: center;
+}
+
+
+
+/**
+ * Другие стили
+ */
+
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+
+}
+
+.nav-menu li {
+    display: inline-block;
+
+}
+
+.nav-menu li a {
+    display: inline-block;
+    color: #000;
+    padding: 10px;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: all .07s ease-in-out;
+}
+
+.nav-menu li a:hover {
+    opacity: 1;
+}
+
+.nav-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.navbar .container {
+    display: flex;
+    height: inherit;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.up {
+    height: 50%;
+}
+
+.nav-menu li a:hover {
+    display: inline-block;
+    color: #000;
+    padding: 10px;
+}
+
+.border {
+    background-color: coral;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(255, 127, 80, );
+}
+
+.containers {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerss {
+    padding-bottom: 60px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-heading {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #382D16;
+}
+
+.blog-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #382D16;
+}
+
+div p {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.bg-lite {
+    padding-top: 60px;
+    height: 70px;
+    background-color: rgb(173, 169, 51);
+
+}
+
+#photos {
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.photo {
+    margin: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.contact-bg {
+    background-color: #fff;
+    height: 70%;
+}
+
+.hov:hover {
+    color: coral;
+    box-shadow: 2px, 10px rgb(255, 127, 80);
+
+}
+
+.radius {
+    border-radius: 30px 20px;
+    color: coral;
+    background-color: coral;
+}

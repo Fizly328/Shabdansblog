@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <img class="border" alt="Logotype" src="#">
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="/index/">О себе</a></li>
+                        <li><a href="/blog/">Блог</a></li>
+                        <li><a href="/contacts/" class="radius">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<h1 class="text-dark pt-5 pb-5" style="padding: 30px;">Общяйтесь со мной!</h1>
+<p class="text-dark pb-5" style="padding: 40px;">Было бы не плохо если бы поговорили о сфере IT</p>
+<img class="containers photo" style="justify-content: center;" src="/static/img/contacts-top-back.svg" alt="image"">
+<div class=" containers photo" style="justify-content: space-between;">
+<img src=" /static/img/phone.svg" alt="phone">
+<img src="/static/img/flag.svg" alt="phone" style="padding-right: 200px;">
+<img src="/static/img/email.svg" alt="photo">
+</div>
+
+<div class=" containers" style="justify-content: space-between;">
+    <a style="text-decoration: none; color: black;" href="tel:+996508300511"><strong class="hov">Телефон</strong></a>
+    <strong>Адрес:<p>something 78 street</p></strong>
+    <strong>Email:<p>something78@gmail.com</p></strong>
+</div>
+
+{% endblock %}

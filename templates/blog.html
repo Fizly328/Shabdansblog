@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <img class="border" alt="Logotype" src="#">
+                <div class="nav-wrap">
+                    <ul class="nav-menu">
+                        <li><a href="/index/">О себе</a></li>
+                        <li><a href=" /blog/" class="radius">Блог</a></li>
+                        <li><a href="/contacts/">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+<h1 class="containers" style="justify-content: left;">Блог</h1>
+<div class="containers" style="justify-content: space-between;">
+    <h5 class="pb-3 blog-heading" style="padding-left: 40px;">Ошибки новичков</h5>
+    <h5 class="pb-3 blog-heading" style="padding-bottom: 30px;">Популярный язык Python</h5>
+    <h5 class="pb-3 blog-heading" style="padding-bottom: 30px;">Какие языки прог. популярны?</h5>
+
+</div>
+<div id="photos">
+    <img style="padding-left: 30px;" src="/static/img/blog-photo-1.png" alt="Фото">
+    <img style="padding-right: 80px;" src="/static/img/blog-photo-2.png" alt="Фото">
+    <img style="padding-right: 80px;" src="/static/img/blog-photo-3.png" alt="Фото">
+</div>
+<div class=" containerss">
+    <div class="containers">
+        <p class="col-md-7 blog-text"> Многие новички стремятся сразу же освоить самые новые и популярные
+            технологии, забывая при этом о
+            фундаментальных основах. Это может привести к поверхностным знаниям и непониманию базовых принципов.</p>
+    </div>
+    <div class="containers">
+        <p class="col-md-7 blog-text">Python — это один из самых популярных языков программирования в мире,
+            известный своей простотой и универсальностью. Python является языком с открытым исходным кодом, и его
+            развитие поддерживается активным сообществом разработчиков по всему миру.</p>
+    </div>
+    <div class="containers">
+        <p class="blog-text col-md-7">Существует множество языков программирования, каждый из которых имеет свои
+            уникальные особенности и области применения. Вот некоторые из самых популярных языков программирования в
+            2024 году и причины их популярности. </p>
+    </div>
+
+</div>
+
+{% endblock %}
